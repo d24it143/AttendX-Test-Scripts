@@ -21,5 +21,15 @@ def test_empty_login():
         print("FAIL: Empty login test failed.")
 
 
+def test_whitespace_login():
+    username = "   "
+
+    if not username.strip():
+        print("PASS: Whitespace-only username detected.")
+    else:
+        print("FAIL: Whitespace-only username not detected.")
+
+
+test_whitespace_login()
 test_login()
 test_empty_login()
