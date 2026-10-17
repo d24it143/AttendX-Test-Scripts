@@ -24,3 +24,5 @@ for the AttendX student attendance application.
 ## Purpose
 To maintain test scripts, track changes, and support
 collaboration among QA engineers.
+
+- Repository maintained using Git and GitHub version control.
